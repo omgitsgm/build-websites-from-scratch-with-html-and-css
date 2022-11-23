@@ -1,0 +1,18 @@
+Plano de Desenvolvimento
+
+Qual o tema do site?
+
+Auroras Boreais
+
+O que eu gostaria que tivesse no site?
+
+- Menu de navegação
+- "hero" do site com uma bela foto
+- Parte geral com explicação do que é uma aurora boreal
+- Parte com algumas imagens de auroras boreais
+- Uma parte destinada a "Fale Conosco"
+	- Formulário para envio de e-mail
+- Footer com nome do criador, data de criação e link para meu github.
+
+
+<a href="https://www.flaticon.com/free-icons/glacier" title="glacier icons">Glacier icons created by Chanut-is-Industries - Flaticon</a>

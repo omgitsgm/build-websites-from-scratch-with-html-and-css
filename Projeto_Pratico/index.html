@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Projeto Prático</title>
+		<meta name="description" content="Esse site foi feito para que eu pudesse colocar em prática os conhecimentos adquiridos no curso de HTML & CSS.">
+		
+		<!-- Normalize to clean up & standardize the browser default styles: http://necolas.github.io/normalize.css/ -->
+		<link href="css/normalize.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="css/styles.css" rel="stylesheet">
+
+		<!-- Modernizr allows HTML5 elements to work in older browsers: http://modernizr.com/ -->
+		<script src="js/modernizr.js"></script>
+	</head>
+	<body>
+		
+		<!-- MENU DE NAVEGAÇÃO -->
+		<div class="container">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="">Página Inicial</a></li>
+						<li><a href="">Aurora Boreal</a></li>
+
+						<!-- Deixo um espaço no menu para alocar a logo do site. -->
+						<li id="logo"><a href="">Logo</a></li>
+
+						<li><a href="">Imagens</a></li>
+						<li><a href="">Fale Conosco</a></li>
+					</ul>
+				</nav>
+			</header>
+		</div>
+
+		<!-- Desenvolvendo o hero do nosso site -->
+		<div id="hero">
+			<div class="container">
+				<img src="images/aurora-boreal.jpg" alt="Céu iluminado por uma bela aurora boreal verde." title="Céu iluminado por uma forte aurora boreal verde.">	
+			</div>
+		</div>
+
+		<!-- Desenvolvendo a parte geral do nosso site -->
+		<!-- Nessa caso, uma parte onde supostamente seria explicado o que são as auroras boreais.-->
+		<div class="container">
+			<div>
+				<h1>O que é?</h1>
+				<h2>Belas Luzes <em>Congelantes</em>!</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et elit dui. In tempor auctor purus et volutpat. Vestibulum scelerisque est eget neque porta ullamcorper. Mauris ac massa tortor. Morbi lorem massa, tristique quis neque quis, semper volutpat lorem. Aenean efficitur turpis a diam blandit, quis egestas augue sodales. Morbi tempus turpis non metus bibendum rutrum.</p>
+			</div>
+		</div>
+
+		<!-- Desenvolvendo a parte de imagens do nosso site -->
+		<!-- Um aglomerado de 6 fotos de auroras boreais, 3 em cada linha.-->
+		<div class="container">
+			<h2>Imagens</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<img src="images/boreal1.jpg">
+			<img src="images/boreal2.jpg">
+			<img src="images/boreal3.jpg">
+			<img src="images/boreal4.jpg">
+			<img src="images/boreal5.jpg">
+		</div>
+
+		<!-- Desenvolvendo a parte de contato do nosso site -->
+		<!-- Formulário para enviar um e-mail -->
+		<div class="container">
+			<h2>Fale Conosco</h2>
+			<p>Tire suas dúvidas a respeito das Auroras Boreais ou simplesmente nos dê um feeedback! Responderemos o mais breve o possível.</p>
+
+			<div class="container">
+				<form>
+					<fieldset>
+						<legend>TESTE</legend>
+
+						<label>Nome:</label>
+						<input type="text" placeholder="Digite seu nome">
+
+						<label>Email:</label>
+						<input type="email" placeholder="Digite seu email">
+
+						<label>Mensagem:</label>
+						<textarea placeholder="Digite sua mensagem"></textarea>
+
+						<input type="submit" value="Enviar Mensagem!">
+						<input type="reset" value="Limpar Formulário">
+
+
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+		<!-- Desenvolvendo o footer do nosso site -->
+		<footer>
+			<div class="container">
+
+				<div>
+					<p>Uncopyright &copy; 2022 <strong>Luiz Gabriel</strong></p>
+					<p>Fique à vontade para reutilizar o código.</p>
+				</div>
+
+				<div>
+					<p>Página Web desenvolvida por <a href="https://github.com/omgitsgm/">Luiz Gabriel</a>.</p>
+				</div>
+
+			</div>
+		</footer>
+
+	</body>
+</html>

@@ -1,0 +1,127 @@
+/* ===============================
+   Author: Luiz Gabriel
+   Date:   7 de Abril de 2022
+   
+   Notes:
+   Codificado para praticar meus
+   conhecimentos adquiridos em
+   HTML e CSS.
+   
+   Colour Palette:
+   ---------------
+   Azul Escuro:	#024959
+   Verde Escuro:	#025940
+   Verde Neon:		#e8c04f
+   Verde Oliva:	#04D976
+   Offwhite:      #E8F5E4
+   Preto carbono: #333
+   =============================== */
+
+/* General */
+
+body {
+   background: #F8F9F2;
+   color: #333;
+   font-size: 14px;
+   font-family: Helvetica;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.container{
+   width: 824px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
+
+/* Typography */
+
+
+
+/* Header */
+
+header nav {
+   text-align: center;
+}
+
+header nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   display: block;
+   line-height: 141px;
+}
+
+header nav ul li {
+   display: inline-block;
+   padding: 0 20px;
+}
+
+header nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+header nav ul li a:link {
+   color: #333;
+}
+
+header nav ul li a:visited {
+   color: #333;
+}
+
+header nav ul li a:hover {
+   color: #04D976;
+   padding-top: 30px;
+   background: url('../images/tiny-aurora.png') top center no-repeat;
+}
+
+header nav ul li#logo a {
+   display: block;
+   width: 128px;
+   height: 128px;
+   background: url('../images/aurora-borealis-logo.png') top center no-repeat;
+   text-indent: -9999px;
+}
+
+header nav ul li#logo a:hover {
+   padding: 0;
+}
+
+/* Hero */
+
+#hero {
+   display: block;
+   padding: 0;
+}
+
+
+/* The Whole Story */
+
+
+
+/* News & Events */
+
+
+
+/* Footer */
+
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+

@@ -1,0 +1,278 @@
+/* ===============================
+   Author: Luiz Gabriel Profirio Mendes
+   Date:   April 11, 2022
+   
+   Notes:
+   Hand coded for Build a Website
+   from Scratch with HTML & CSS
+   by Brad Hussey
+   
+   Colour Palette:
+   ---------------
+   Azul Escuro:	#024959
+   Verde Escuro:	#025940
+   Verde Oliva:	#04D976
+   Offwhite:      #F8F9F2
+   Preto carbono: #333
+   =============================== */
+
+/* General */
+
+body {
+   background: #F8F9F2 url('../images/bg-tile.gif') top left repeat;
+   color: #333;
+   font-size: 14px;
+   font-family: 'Open Sans', 'Helvetica New', Helvetica, Arial, sans-serif;
+
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.container {
+   width: 924px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
+
+/* Typography */
+
+   h2, h3{
+   color: #2FFD5D;
+   font-weight: normal;
+   font-family: 'Love Ya Like A Sister', cursive;
+   line-height: 44px;
+   margin: 0;
+}
+
+h2 {
+   text-align: center;
+   text-decoration: underline;
+   font-size: 34px;
+   padding: 0 0 20px;
+}
+
+h3 {
+   margin: 0;
+}
+
+p {
+   margin: 0;
+}
+
+a:link {
+   color: #333;
+}
+
+a:visited {
+   color: #333;
+}
+
+a:hover {
+   color: #2FFD5D;
+}
+
+hr {
+   border: none;
+   height: 33px;
+   width: 333px;
+   margin: 30px auto;
+   background: url('../images/divider.png') center center no-repeat;
+}
+
+/* Header */
+
+header nav {
+   text-align: center;
+
+}
+
+header nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+   line-height: 128px;
+}
+
+header nav ul li {
+   font-size: 16px;
+   display: inline-block;
+   padding: 0 15px;
+}
+
+header nav ul li a {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+header nav ul li a:hover {
+   color: #04D976;
+   padding-top: 30px;
+   background: url('../images/tiny-aurora.png') top center no-repeat;
+}
+
+header nav ul li#logo a {
+   display: block;
+   width: 128px;
+   height: 128px;
+   background: url('../images/aurora-borealis-logo.png') center center no-repeat;
+   text-indent: -9999px;
+}
+
+header nav ul li#logo a:hover {
+   padding: 0;
+} 
+
+/* Hero */
+
+#hero {
+   background: #010A13;
+}
+
+
+/* Informacoes */
+
+#informacoes {
+   text-align: justify;
+}
+
+
+/* Curiosidades */
+
+#curiosidades {
+   text-align: justify;
+}
+
+/* Imagens */
+ 
+#imagens {
+   background: #010A13;
+}
+
+#imagens img.linha1 {
+   height: 250px;
+   width: 455px;
+   float: left;
+   padding-top: 10px;
+}
+
+#imagens img.linha1.esquerda {
+   padding-right: 10px;
+}
+
+#imagens img.linha2 {
+   height: 250px;
+   width: 455px;
+   float: left;
+   padding-top: 10px;
+}
+
+#imagens img.linha2.esquerda {
+   padding-right: 10px;
+}
+
+#imagens img.linha3 {
+   height: 250px;
+   width: 455px;
+   float: left;
+   padding-top: 10px;
+   padding-left: 230px;
+}
+
+/* fale-conosco */
+
+form {
+   text-align: left;
+   width: 300px;
+   margin: 20px auto 0;
+}
+
+form label {
+   display: block;
+   width: 290px; /* 290px width + 5px padding left + 5px padding right = 300px */
+   padding: 5px;
+   text-transform: uppercase;
+   font-weight: bold;
+   background: #04D976;
+   color: white;
+}
+
+form input {
+   display: block;
+   width: 290px;
+   padding: 5px;
+   margin: 0 0 10px;
+   border: none;
+   font-size: 16px;
+   font-family: 'Open Sans', 'Helvetica New', Helvetica, Arial, sans-serif;
+   font-style: italic;
+}
+
+form input[type="submit"] {
+   background: #333;
+   color: white;
+   cursor: pointer;
+   width: 300px;
+}
+
+form textarea {
+   display: block;
+   width: 290px;
+   height: 200px;
+   padding: 5px;
+   margin: 0 0 10px;
+   border: none;
+   font-size: 16px;
+   font-family: 'Open Sans', 'Helvetica New', Helvetica, Arial, sans-serif;
+   font-style: italic;
+}
+
+/* Footer */
+
+footer.main {
+   background: #010A13;
+   color: #f2f3ee;
+   padding: 30px 0;
+}
+
+footer.main a{
+   color: #f2f3ee;
+}
+
+footer.main a:hover{
+   color: #04D976;
+}
+
+#uncopyright, #credits {
+   width: 240px;
+   float: left;
+   padding: 0 0 0px 0px;
+}
+
+#credits {
+   float: right;
+   margin-top: 9px;
+}
+
+#uncopyright strong {
+   color: #04D976;
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
